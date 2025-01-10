@@ -1,5 +1,5 @@
 # Указываем базовый образ с .NET SDK
-FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 
 # Устанавливаем рабочую директорию
 WORKDIR /app
